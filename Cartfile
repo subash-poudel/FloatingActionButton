@@ -1,1 +1,1 @@
-github "subash-poudel/FloatingActionButton" "master"
+github "subash-poudel/FloatingActionButton" ~> 1.0.0
