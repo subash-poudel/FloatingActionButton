@@ -1,6 +1,11 @@
 # FloatingActionButton
 Floating action button from material design for iOS
 
-ScreenShot
+![ScreenShot](images/screenshot.png)
 
-!(ScreenShot)(./images/screenshot.png)
+
+# Custom Properties
+  * Background Color
+  * Shadow Opacity
+  * Shadow Offset
+  * Shadow Radius
