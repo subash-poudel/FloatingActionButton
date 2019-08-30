@@ -11,8 +11,8 @@
 		E9645A6A231955020080DA0F /* FloatingActionButtoniOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9645A69231955020080DA0F /* FloatingActionButtoniOSTests.swift */; };
 		E9645A6C231955020080DA0F /* FloatingActionButtoniOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E9645A5C231955020080DA0F /* FloatingActionButtoniOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9645A6F231955020080DA0F /* FloatingActionButtoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9645A5A231955020080DA0F /* FloatingActionButtoniOS.framework */; };
+		E9645A70231955020080DA0F /* FloatingActionButtoniOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9645A5A231955020080DA0F /* FloatingActionButtoniOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E9645A78231955340080DA0F /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97354231912DC0003EE82 /* FloatingActionButton.swift */; };
-		E9645A7E23195B4F0080DA0F /* FloatingActionButtoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9645A7D23195B4F0080DA0F /* FloatingActionButtoniOS.framework */; };
 		E9E97324231912870003EE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97323231912870003EE82 /* AppDelegate.swift */; };
 		E9E97326231912870003EE82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97325231912870003EE82 /* ViewController.swift */; };
 		E9E97329231912870003EE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E97327231912870003EE82 /* Main.storyboard */; };
@@ -20,6 +20,7 @@
 		E9E9732E231912880003EE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E9732C231912880003EE82 /* LaunchScreen.storyboard */; };
 		E9E97339231912880003EE82 /* FloatingActionButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97338231912880003EE82 /* FloatingActionButtonTests.swift */; };
 		E9E97344231912880003EE82 /* FloatingActionButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97343231912880003EE82 /* FloatingActionButtonUITests.swift */; };
+		E9E97355231912DC0003EE82 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97354231912DC0003EE82 /* FloatingActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				E9645A70231955020080DA0F /* FloatingActionButtoniOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +83,6 @@
 		E9645A69231955020080DA0F /* FloatingActionButtoniOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButtoniOSTests.swift; sourceTree = "<group>"; };
 		E9645A6B231955020080DA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9645A7A231955DC0080DA0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E9645A7D23195B4F0080DA0F /* FloatingActionButtoniOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FloatingActionButtoniOS.framework; path = Carthage/Build/iOS/FloatingActionButtoniOS.framework; sourceTree = SOURCE_ROOT; };
 		E9E97320231912870003EE82 /* FloatingActionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingActionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E97323231912870003EE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E97325231912870003EE82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +119,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9645A7E23195B4F0080DA0F /* FloatingActionButtoniOS.framework in Frameworks */,
 				E9645A6F231955020080DA0F /* FloatingActionButtoniOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,7 +143,6 @@
 		E9645A5B231955020080DA0F /* FloatingActionButtoniOS */ = {
 			isa = PBXGroup;
 			children = (
-				E9E97354231912DC0003EE82 /* FloatingActionButton.swift */,
 				E9645A5C231955020080DA0F /* FloatingActionButtoniOS.h */,
 				E9645A5D231955020080DA0F /* Info.plist */,
 			);
@@ -163,14 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				E9645A7A231955DC0080DA0F /* UIKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E9645A7C23195B3F0080DA0F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E9645A7D23195B4F0080DA0F /* FloatingActionButtoniOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,7 +194,6 @@
 		E9E97322231912870003EE82 /* FloatingActionButton */ = {
 			isa = PBXGroup;
 			children = (
-				E9645A7C23195B3F0080DA0F /* Frameworks */,
 				E9E97353231912B70003EE82 /* CustomViews */,
 				E9E97323231912870003EE82 /* AppDelegate.swift */,
 				E9E97325231912870003EE82 /* ViewController.swift */,
@@ -236,6 +226,7 @@
 		E9E97353231912B70003EE82 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				E9E97354231912DC0003EE82 /* FloatingActionButton.swift */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -299,7 +290,6 @@
 				E9E9731D231912870003EE82 /* Frameworks */,
 				E9E9731E231912870003EE82 /* Resources */,
 				E9645A76231955020080DA0F /* Embed Frameworks */,
-				E9645A7F23195B7E0080DA0F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -440,28 +430,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		E9645A7F23195B7E0080DA0F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/FloatingActionButtoniOS.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FloatingActionButtoniOS.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		E9645A56231955020080DA0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -484,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E97326231912870003EE82 /* ViewController.swift in Sources */,
+				E9E97355231912DC0003EE82 /* FloatingActionButton.swift in Sources */,
 				E9E97324231912870003EE82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -768,10 +737,6 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = FloatingActionButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -790,10 +755,6 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = FloatingActionButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
