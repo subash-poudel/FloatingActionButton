@@ -14,6 +14,7 @@
 		E9E9732E231912880003EE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E9732C231912880003EE82 /* LaunchScreen.storyboard */; };
 		E9E97339231912880003EE82 /* FloatingActionButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97338231912880003EE82 /* FloatingActionButtonTests.swift */; };
 		E9E97344231912880003EE82 /* FloatingActionButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97343231912880003EE82 /* FloatingActionButtonUITests.swift */; };
+		E9E97355231912DC0003EE82 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E97354231912DC0003EE82 /* FloatingActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E9E9733F231912880003EE82 /* FloatingActionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingActionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E97343231912880003EE82 /* FloatingActionButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButtonUITests.swift; sourceTree = "<group>"; };
 		E9E97345231912880003EE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E97354231912DC0003EE82 /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E9E97322231912870003EE82 /* FloatingActionButton */ = {
 			isa = PBXGroup;
 			children = (
+				E9E97353231912B70003EE82 /* CustomViews */,
 				E9E97323231912870003EE82 /* AppDelegate.swift */,
 				E9E97325231912870003EE82 /* ViewController.swift */,
 				E9E97327231912870003EE82 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				E9E97345231912880003EE82 /* Info.plist */,
 			);
 			path = FloatingActionButtonUITests;
+			sourceTree = "<group>";
+		};
+		E9E97353231912B70003EE82 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E9E97354231912DC0003EE82 /* FloatingActionButton.swift */,
+			);
+			name = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E97326231912870003EE82 /* ViewController.swift in Sources */,
+				E9E97355231912DC0003EE82 /* FloatingActionButton.swift in Sources */,
 				E9E97324231912870003EE82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
